@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0994FB3A8ED3EF35A2A32F51 /* Pods_Zeffo_ZeffoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FD505CDBC422B41CE54F4A /* Pods_Zeffo_ZeffoUITests.framework */; };
+		0F2046E9296D4A9C00051001 /* GiftCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2046E8296D4A9C00051001 /* GiftCardVC.swift */; };
+		0F2046EB296D4AB800051001 /* EnterMobileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2046EA296D4AB700051001 /* EnterMobileVC.swift */; };
+		0F2046EE296D5B1D00051001 /* Extention File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2046ED296D5B1D00051001 /* Extention File.swift */; };
 		0F368639296BEE170033EF39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F368638296BEE170033EF39 /* AppDelegate.swift */; };
 		0F36863B296BEE170033EF39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F36863A296BEE170033EF39 /* SceneDelegate.swift */; };
 		0F36863D296BEE170033EF39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F36863C296BEE170033EF39 /* ViewController.swift */; };
@@ -17,6 +21,12 @@
 		0F368653296BEE190033EF39 /* ZeffoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F368652296BEE190033EF39 /* ZeffoTests.swift */; };
 		0F36865D296BEE190033EF39 /* ZeffoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F36865C296BEE190033EF39 /* ZeffoUITests.swift */; };
 		0F36865F296BEE190033EF39 /* ZeffoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F36865E296BEE190033EF39 /* ZeffoUITestsLaunchTests.swift */; };
+		0F3713CF296D69FD00108B24 /* VerifyMobileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3713CE296D69FD00108B24 /* VerifyMobileVC.swift */; };
+		0F3713D2296D846500108B24 /* SocialSignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3713D1296D846500108B24 /* SocialSignUpVC.swift */; };
+		0F3713D4296D8AA300108B24 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3713D3296D8AA300108B24 /* SignUpVC.swift */; };
+		0F3713D6296D94C600108B24 /* SelectLifeStageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3713D5296D94C600108B24 /* SelectLifeStageVC.swift */; };
+		995256C25D9A7BBE8FFD7C07 /* Pods_Zeffo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20E8AAEFB27256433652A61 /* Pods_Zeffo.framework */; };
+		A2E2F312966A1D77384BD044 /* Pods_ZeffoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8108DA61C07DB6903016D1 /* Pods_ZeffoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F2046E8296D4A9C00051001 /* GiftCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardVC.swift; sourceTree = "<group>"; };
+		0F2046EA296D4AB700051001 /* EnterMobileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterMobileVC.swift; sourceTree = "<group>"; };
+		0F2046ED296D5B1D00051001 /* Extention File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extention File.swift"; sourceTree = "<group>"; };
 		0F368635296BEE170033EF39 /* Zeffo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zeffo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F368638296BEE170033EF39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F36863A296BEE170033EF39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +64,35 @@
 		0F368658296BEE190033EF39 /* ZeffoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZeffoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F36865C296BEE190033EF39 /* ZeffoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeffoUITests.swift; sourceTree = "<group>"; };
 		0F36865E296BEE190033EF39 /* ZeffoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeffoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0F3713CE296D69FD00108B24 /* VerifyMobileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyMobileVC.swift; sourceTree = "<group>"; };
+		0F3713D1296D846500108B24 /* SocialSignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialSignUpVC.swift; sourceTree = "<group>"; };
+		0F3713D3296D8AA300108B24 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		0F3713D5296D94C600108B24 /* SelectLifeStageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLifeStageVC.swift; sourceTree = "<group>"; };
+		0F584B82296D2FF600B8F012 /* IdealSans-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IdealSans-Black.otf"; sourceTree = "<group>"; };
+		0F584B83296D300400B8F012 /* IdealSans-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IdealSans-BlackItalic.otf"; sourceTree = "<group>"; };
+		0F584B84296D300800B8F012 /* IdealSans-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IdealSans-Bold.otf"; sourceTree = "<group>"; };
+		0F584B85296D300B00B8F012 /* IdealSans-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IdealSans-BoldItalic.otf"; sourceTree = "<group>"; };
+		0F584B86296D300F00B8F012 /* IdealSans-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IdealSans-Book.otf"; sourceTree = "<group>"; };
+		0F584B87296D301600B8F012 /* IdealSans-BookItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IdealSans-BookItalic.otf"; sourceTree = "<group>"; };
+		0F584B88296D302400B8F012 /* IdealSans-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IdealSans-ExtraLight.otf"; sourceTree = "<group>"; };
+		0F584B89296D33A900B8F012 /* IdealSans-ExtraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IdealSans-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		0F584B8A296D33AF00B8F012 /* IdealSans-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IdealSans-Light.otf"; sourceTree = "<group>"; };
+		0F584B8B296D33B300B8F012 /* IdealSans-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IdealSans-LightItalic.otf"; sourceTree = "<group>"; };
+		0F584B8C296D33B700B8F012 /* IdealSans-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IdealSans-Medium.otf"; sourceTree = "<group>"; };
+		0F584B8D296D35C700B8F012 /* IdealSans-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IdealSans-MediumItalic.otf"; sourceTree = "<group>"; };
+		0F584B8E296D35CD00B8F012 /* IdealSans-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IdealSans-Semibold.otf"; sourceTree = "<group>"; };
+		0F584B8F296D35D000B8F012 /* IdealSans-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IdealSans-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		0F584B90296D35D600B8F012 /* IdealSans-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IdealSans-Thin.otf"; sourceTree = "<group>"; };
+		0F584B91296D35DB00B8F012 /* IdealSans-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IdealSans-ThinItalic.otf"; sourceTree = "<group>"; };
+		1A8108DA61C07DB6903016D1 /* Pods_ZeffoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZeffoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		400B201BC93B516E5D733745 /* Pods-Zeffo-ZeffoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zeffo-ZeffoUITests.release.xcconfig"; path = "Target Support Files/Pods-Zeffo-ZeffoUITests/Pods-Zeffo-ZeffoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		49B980A3C420AF6835A53508 /* Pods-ZeffoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeffoTests.debug.xcconfig"; path = "Target Support Files/Pods-ZeffoTests/Pods-ZeffoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8AA14AD11B1C5810468989CF /* Pods-Zeffo-ZeffoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zeffo-ZeffoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Zeffo-ZeffoUITests/Pods-Zeffo-ZeffoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8FE8DAAE2D289BC373F696C7 /* Pods-Zeffo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zeffo.debug.xcconfig"; path = "Target Support Files/Pods-Zeffo/Pods-Zeffo.debug.xcconfig"; sourceTree = "<group>"; };
+		B31CD1236AF7EC9D2ECBE7E9 /* Pods-Zeffo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zeffo.release.xcconfig"; path = "Target Support Files/Pods-Zeffo/Pods-Zeffo.release.xcconfig"; sourceTree = "<group>"; };
+		D5FD505CDBC422B41CE54F4A /* Pods_Zeffo_ZeffoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zeffo_ZeffoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20E8AAEFB27256433652A61 /* Pods_Zeffo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zeffo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA440D46612994BBD3E7F336 /* Pods-ZeffoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeffoTests.release.xcconfig"; path = "Target Support Files/Pods-ZeffoTests/Pods-ZeffoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				995256C25D9A7BBE8FFD7C07 /* Pods_Zeffo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2E2F312966A1D77384BD044 /* Pods_ZeffoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +116,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0994FB3A8ED3EF35A2A32F51 /* Pods_Zeffo_ZeffoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F2046E5296D487A00051001 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0F3713D0296D7CE000108B24 /* SignUp */,
+				0F3713D5296D94C600108B24 /* SelectLifeStageVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0F2046EC296D5A5B00051001 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0F2046ED296D5B1D00051001 /* Extention File.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		0F36862C296BEE170033EF39 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +147,8 @@
 				0F368651296BEE190033EF39 /* ZeffoTests */,
 				0F36865B296BEE190033EF39 /* ZeffoUITests */,
 				0F368636296BEE170033EF39 /* Products */,
+				1309A79273F33557721F1346 /* Pods */,
+				8D7073C5B75FE21731B06B75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +168,9 @@
 				0F368638296BEE170033EF39 /* AppDelegate.swift */,
 				0F36863A296BEE170033EF39 /* SceneDelegate.swift */,
 				0F36863C296BEE170033EF39 /* ViewController.swift */,
+				0F2046E5296D487A00051001 /* Controller */,
+				0F584B61296D2AE300B8F012 /* Font */,
+				0F2046EC296D5A5B00051001 /* Helper */,
 				0F36863E296BEE170033EF39 /* Main.storyboard */,
 				0F368644296BEE180033EF39 /* Assets.xcassets */,
 				0F368646296BEE180033EF39 /* LaunchScreen.storyboard */,
@@ -130,6 +197,64 @@
 			path = ZeffoUITests;
 			sourceTree = "<group>";
 		};
+		0F3713D0296D7CE000108B24 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				0F2046E8296D4A9C00051001 /* GiftCardVC.swift */,
+				0F2046EA296D4AB700051001 /* EnterMobileVC.swift */,
+				0F3713CE296D69FD00108B24 /* VerifyMobileVC.swift */,
+				0F3713D1296D846500108B24 /* SocialSignUpVC.swift */,
+				0F3713D3296D8AA300108B24 /* SignUpVC.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		0F584B61296D2AE300B8F012 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				0F584B82296D2FF600B8F012 /* IdealSans-Black.otf */,
+				0F584B83296D300400B8F012 /* IdealSans-BlackItalic.otf */,
+				0F584B84296D300800B8F012 /* IdealSans-Bold.otf */,
+				0F584B85296D300B00B8F012 /* IdealSans-BoldItalic.otf */,
+				0F584B86296D300F00B8F012 /* IdealSans-Book.otf */,
+				0F584B87296D301600B8F012 /* IdealSans-BookItalic.otf */,
+				0F584B88296D302400B8F012 /* IdealSans-ExtraLight.otf */,
+				0F584B89296D33A900B8F012 /* IdealSans-ExtraLightItalic.otf */,
+				0F584B8A296D33AF00B8F012 /* IdealSans-Light.otf */,
+				0F584B8B296D33B300B8F012 /* IdealSans-LightItalic.otf */,
+				0F584B8C296D33B700B8F012 /* IdealSans-Medium.otf */,
+				0F584B8D296D35C700B8F012 /* IdealSans-MediumItalic.otf */,
+				0F584B8E296D35CD00B8F012 /* IdealSans-Semibold.otf */,
+				0F584B8F296D35D000B8F012 /* IdealSans-SemiboldItalic.otf */,
+				0F584B90296D35D600B8F012 /* IdealSans-Thin.otf */,
+				0F584B91296D35DB00B8F012 /* IdealSans-ThinItalic.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		1309A79273F33557721F1346 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FE8DAAE2D289BC373F696C7 /* Pods-Zeffo.debug.xcconfig */,
+				B31CD1236AF7EC9D2ECBE7E9 /* Pods-Zeffo.release.xcconfig */,
+				8AA14AD11B1C5810468989CF /* Pods-Zeffo-ZeffoUITests.debug.xcconfig */,
+				400B201BC93B516E5D733745 /* Pods-Zeffo-ZeffoUITests.release.xcconfig */,
+				49B980A3C420AF6835A53508 /* Pods-ZeffoTests.debug.xcconfig */,
+				FA440D46612994BBD3E7F336 /* Pods-ZeffoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8D7073C5B75FE21731B06B75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E20E8AAEFB27256433652A61 /* Pods_Zeffo.framework */,
+				D5FD505CDBC422B41CE54F4A /* Pods_Zeffo_ZeffoUITests.framework */,
+				1A8108DA61C07DB6903016D1 /* Pods_ZeffoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +262,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F368662296BEE190033EF39 /* Build configuration list for PBXNativeTarget "Zeffo" */;
 			buildPhases = (
+				48797CC826589A1EB3AE43F6 /* [CP] Check Pods Manifest.lock */,
 				0F368631296BEE170033EF39 /* Sources */,
 				0F368632296BEE170033EF39 /* Frameworks */,
 				0F368633296BEE170033EF39 /* Resources */,
+				9B31A799100E760F416075DF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +281,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F368665296BEE190033EF39 /* Build configuration list for PBXNativeTarget "ZeffoTests" */;
 			buildPhases = (
+				AA43067F2673208E0974C520 /* [CP] Check Pods Manifest.lock */,
 				0F36864A296BEE190033EF39 /* Sources */,
 				0F36864B296BEE190033EF39 /* Frameworks */,
 				0F36864C296BEE190033EF39 /* Resources */,
@@ -172,9 +300,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F368668296BEE190033EF39 /* Build configuration list for PBXNativeTarget "ZeffoUITests" */;
 			buildPhases = (
+				CFDC5DE3A5894962AAEF4E1D /* [CP] Check Pods Manifest.lock */,
 				0F368654296BEE190033EF39 /* Sources */,
 				0F368655296BEE190033EF39 /* Frameworks */,
 				0F368656296BEE190033EF39 /* Resources */,
+				FD1CFCF6F67151EE9F5A7CE1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,14 +386,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		48797CC826589A1EB3AE43F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zeffo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B31A799100E760F416075DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zeffo/Pods-Zeffo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zeffo/Pods-Zeffo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zeffo/Pods-Zeffo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA43067F2673208E0974C520 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZeffoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFDC5DE3A5894962AAEF4E1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zeffo-ZeffoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD1CFCF6F67151EE9F5A7CE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zeffo-ZeffoUITests/Pods-Zeffo-ZeffoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zeffo-ZeffoUITests/Pods-Zeffo-ZeffoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zeffo-ZeffoUITests/Pods-Zeffo-ZeffoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0F368631296BEE170033EF39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F2046EE296D5B1D00051001 /* Extention File.swift in Sources */,
+				0F2046E9296D4A9C00051001 /* GiftCardVC.swift in Sources */,
+				0F3713D6296D94C600108B24 /* SelectLifeStageVC.swift in Sources */,
+				0F3713D2296D846500108B24 /* SocialSignUpVC.swift in Sources */,
 				0F368643296BEE170033EF39 /* Zeffo.xcdatamodeld in Sources */,
 				0F36863D296BEE170033EF39 /* ViewController.swift in Sources */,
+				0F2046EB296D4AB800051001 /* EnterMobileVC.swift in Sources */,
+				0F3713CF296D69FD00108B24 /* VerifyMobileVC.swift in Sources */,
 				0F368639296BEE170033EF39 /* AppDelegate.swift in Sources */,
+				0F3713D4296D8AA300108B24 /* SignUpVC.swift in Sources */,
 				0F36863B296BEE170033EF39 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +676,7 @@
 		};
 		0F368663296BEE190033EF39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FE8DAAE2D289BC373F696C7 /* Pods-Zeffo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -466,6 +707,7 @@
 		};
 		0F368664296BEE190033EF39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B31CD1236AF7EC9D2ECBE7E9 /* Pods-Zeffo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -496,6 +738,7 @@
 		};
 		0F368666296BEE190033EF39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49B980A3C420AF6835A53508 /* Pods-ZeffoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +759,7 @@
 		};
 		0F368667296BEE190033EF39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA440D46612994BBD3E7F336 /* Pods-ZeffoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -536,6 +780,7 @@
 		};
 		0F368669296BEE190033EF39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AA14AD11B1C5810468989CF /* Pods-Zeffo-ZeffoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -554,6 +799,7 @@
 		};
 		0F36866A296BEE190033EF39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 400B201BC93B516E5D733745 /* Pods-Zeffo-ZeffoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

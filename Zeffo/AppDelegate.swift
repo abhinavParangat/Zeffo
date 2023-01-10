@@ -7,6 +7,7 @@
 
 import UIKit
 import CoreData
+import IQKeyboardManagerSwift
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let keyboardManager = IQKeyboardManager.shared
+        keyboardManager.enable = true
+        keyboardManager.previousNextDisplayMode = .alwaysShow
+        keyboardManager.shouldResignOnTouchOutside = true
+
         return true
     }
 

@@ -1,0 +1,6 @@
+framework module Pods_ZeffoTests {
+  umbrella header "Pods-ZeffoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

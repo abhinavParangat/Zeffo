@@ -2,6 +2,25 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>IdealSans-Black.otf</string>
+		<string>IdealSans-BlackItalic.otf</string>
+		<string>IdealSans-Bold.otf</string>
+		<string>IdealSans-BoldItalic.otf</string>
+		<string>IdealSans-Book.otf</string>
+		<string>IdealSans-BookItalic.otf</string>
+		<string>IdealSans-ExtraLight.otf</string>
+		<string>IdealSans-ExtraLightItalic.otf</string>
+		<string>IdealSans-Light.otf</string>
+		<string>IdealSans-LightItalic.otf</string>
+		<string>IdealSans-Medium.otf</string>
+		<string>IdealSans-MediumItalic.otf</string>
+		<string>IdealSans-Semibold.otf</string>
+		<string>IdealSans-SemiboldItalic.otf</string>
+		<string>IdealSans-Thin.otf</string>
+		<string>IdealSans-ThinItalic.otf</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
