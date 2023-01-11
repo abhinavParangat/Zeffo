@@ -16,9 +16,12 @@ class GiftCardVC: UIViewController {
     }
  
     // MARK: - Button
+    
+    
     @IBAction func clickOnNextButton(_ sender : UIButton){
         let vc = storyboard?.instantiateViewController(withIdentifier: "EnterMobileVC") as! EnterMobileVC
         self.navigationController?.pushViewController(vc, animated: true)
     }
+  
 
 }
