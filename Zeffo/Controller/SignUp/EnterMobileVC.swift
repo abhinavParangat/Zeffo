@@ -23,6 +23,8 @@ class EnterMobileVC: UIViewController {
     // MARK: - Supported Function
     func setUpUI(){
         mainView.ViewBorder(borderCornerRadius: 13, borderColor: UIColor(red: 255/255, green: 143/255, blue: 102/255, alpha: 1).cgColor, borderWith: 1.5)
+        
+//        mainView
 
     }
     

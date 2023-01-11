@@ -15,6 +15,8 @@ class SignUpVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpUI()
+        
+        print("World Hello")
 
         // Do any additional setup after loading the view.
     }
